@@ -15,7 +15,8 @@ import java.util.List;
 
 @RequestMapping("/examen")
 @RestController
-@CrossOrigin(origins = "https://front-end-examen.vercel.app/")
+//@CrossOrigin(origins = "https://front-end-examen.vercel.app/")
+@CrossOrigin(origins = "https://front-iw.vercel.app/")
 public class MapController {
 
     @Autowired
